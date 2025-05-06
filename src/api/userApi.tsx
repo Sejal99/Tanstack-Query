@@ -6,3 +6,9 @@ export const fetchUsers = async () => {
   );
   return response.data;
 };
+
+
+export const addUser = async (user: { name: string; email: string }) => {
+  const response = await axios.post('https://jsonplaceholder.typicode.com/users', user);
+  return response.data;
+};

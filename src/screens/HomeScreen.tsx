@@ -16,7 +16,7 @@ const HomeScreen = () => {
     queryFn: fetchUsers,
   });
 
-  //   queryKey: ['users']
+  //  queryKey: ['users']
   // A unique identifier for the query.
 
   // Used internally to cache and track this specific request.
